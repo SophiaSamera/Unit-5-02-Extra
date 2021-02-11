@@ -1,5 +1,4 @@
-document.getElementById('button')
-.addEventListener('click',buttonOn)
+  document.getElementById('button') .addEventListener('click', buttonOn)
 
 function buttonOn () {
   document.getElementById('paragraph').innerHTML = 'My Melody'
@@ -7,5 +6,5 @@ function buttonOn () {
   document.getElementById('background').style.backgroundColor = 'pink'
   document.getElementById('paragraph').style.color = 'brown'
   document.getElementById('paragraph').style.fontFamily = 'Impact,Charcoal,sans-serif'
-  document.getElementById ('paragraph').style.fontSize = '25px'
+  document.getElementById('paragraph').style.fontSize = '25px'
 }
