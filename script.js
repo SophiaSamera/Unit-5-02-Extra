@@ -1,4 +1,4 @@
-  document.getElementById('button') .addEventListener('click', buttonOn)
+document.getElementById('button').addEventListener('click', buttonOn)
 
 function buttonOn () {
   document.getElementById('paragraph').innerHTML = 'My Melody'
