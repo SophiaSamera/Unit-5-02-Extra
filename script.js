@@ -1,3 +1,6 @@
+document.getElementById('button')
+.addEventListener('click',buttonOn)
+
 function buttonOn () {
   document.getElementById('paragraph').innerHTML = 'My Melody'
   document.getElementById('sanrio').src = './Images/mymelody.jpg'
